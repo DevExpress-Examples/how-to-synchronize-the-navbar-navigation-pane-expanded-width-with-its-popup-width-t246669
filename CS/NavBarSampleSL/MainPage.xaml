@@ -1,0 +1,49 @@
+﻿<UserControl 
+    x:Class="NavBarSampleSL.MainPage" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" 
+    d:DesignHeight="300" 
+    d:DesignWidth="400" 
+    xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar"
+    xmlns:local="clr-namespace:NavBarSampleSL"
+    
+    xmlns:dxd="http://schemas.devexpress.com/winfx/2008/xaml/docking">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxd:DockLayoutManager>
+            <dxd:LayoutGroup>
+                <dxd:LayoutPanel>
+                    <dxn:NavBarControl HorizontalAlignment="Left" Name="navBarControl1" VerticalAlignment="Stretch">
+                        <dxn:NavBarControl.View>
+                            <local:CustomNavigationPaneView x:Name="View"></local:CustomNavigationPaneView>
+                        </dxn:NavBarControl.View>
+                        <dxn:NavBarControl.Groups>
+                            <dxn:NavBarGroup Header="Group1" x:Name="firstGroup">
+                                <dxn:NavBarItem Content="Item1"/>
+                            </dxn:NavBarGroup>
+                            <dxn:NavBarGroup Header="Group2" x:Name="secondGroup">
+                                <dxn:NavBarItem Content="Item1"/>
+                                <dxn:NavBarItem Content="Item2"/>
+                            </dxn:NavBarGroup>
+                            <dxn:NavBarGroup Header="Group3" x:Name="thirdGroup">
+                                <dxn:NavBarItem Content="Item1"/>
+                                <dxn:NavBarItem Content="Item2"/>
+                                <dxn:NavBarItem Content="Item3"/>
+                            </dxn:NavBarGroup>
+                            <dxn:NavBarGroup Header="Group4" x:Name="lastGroup">
+                                <dxn:NavBarItem Content="Item1"/>
+                                <dxn:NavBarItem Content="Item2"/>
+                                <dxn:NavBarItem Content="Item3"/>
+                                <dxn:NavBarItem Content="Item4"/>
+                            </dxn:NavBarGroup>
+                        </dxn:NavBarControl.Groups>
+                    </dxn:NavBarControl>
+                </dxd:LayoutPanel>
+                <dxd:LayoutPanel/>
+            </dxd:LayoutGroup>
+        </dxd:DockLayoutManager>
+    </Grid>
+</UserControl>
