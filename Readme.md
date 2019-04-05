@@ -3,7 +3,7 @@
 
 * [CustomNavigationPaneView.cs](./CS/NavBarSampleSL/CustomNavigationPaneView.cs) (VB: [CustomNavigationPaneView.vb](./VB/NavBarSampleSL/CustomNavigationPaneView.vb))
 * [MainPage.xaml](./CS/NavBarSampleSL/MainPage.xaml) (VB: [MainPage.xaml](./VB/NavBarSampleSL/MainPage.xaml))
-* [MainPage.xaml.cs](./CS/NavBarSampleSL/MainPage.xaml.cs) (VB: [MainPage.xaml](./VB/NavBarSampleSL/MainPage.xaml))
+* [MainPage.xaml.cs](./CS/NavBarSampleSL/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/NavBarSampleSL/MainPage.xaml.vb))
 <!-- default file list end -->
 # How to synchronize the NavBar Navigation Pane expanded width with its popup width
 
